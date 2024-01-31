@@ -12,7 +12,7 @@ export default function Random() {
     // Display points one by one with a delay of 500 milliseconds
     const displayPointsWithDelay = async () => {
       for (let i = 0; i < numPoints; i++) {
-        await new Promise((resolve) => setTimeout(resolve, 300));
+        await new Promise((resolve) => setTimeout(resolve, 50));
         setDisplayedPoints((prevPoints) => [...prevPoints, points[i]]);
       }
     };
