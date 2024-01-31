@@ -1,0 +1,20 @@
+.box {
+    box-sizing: border-box;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 25vh auto; 
+    position: relative;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-flow: column;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.input-box {
+    margin-top: 1rem;
+    width: 160px;
+}

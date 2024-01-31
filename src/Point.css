@@ -1,0 +1,13 @@
+.point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    transition: background-color 0.5s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .point.red {
+    background-color: red;
+  }
+  
